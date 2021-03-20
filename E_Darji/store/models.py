@@ -24,7 +24,7 @@ class Forms(models.Model):
   Breast = models.CharField(max_length=122)
   Quantity = models.CharField(max_length=122)
   Lengthp = models.CharField(max_length=122)
-  Hipp = models.CharField(max_length=122)
+  Hipp = models.CharField(max_length=122, blank=True, null=True)
   Waist = models.CharField(max_length=122)
   Bottom = models.CharField(max_length=122)
   Knees = models.CharField(max_length=122)
