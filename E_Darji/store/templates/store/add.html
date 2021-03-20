@@ -18,11 +18,13 @@
     </nav>
       <h1>New Entry</h1>
     <div class="fir">
-        <form>
+        <form class="" method="post">
+            {% csrf_token %} 
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" fname="fname"><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+            <input type="text" id="lname" lname="lname"><br>
+            <input type="submit" class="btn btn-success btn-lg mt-1 m1-4" value="">
         </form>
         <br>
     </div>
@@ -40,48 +42,48 @@
         <br>
         <h2>Kurta</h2>
         <br>
-        <form>
+        <form class="" method="post" action="#">
             <label for="neck">Neck:</label><br>
-            <input type="number" id="neck" name="neck"><br>
+            <input type="number" id="neck" nname="neck"><br>
             <label for="shoulder">Shoulder:</label><br>
-            <input type="number" id="shoulder" name="shoulder"><br>
+            <input type="number" id="shoulder" sname="shoulder"><br>
             <label for="arm">Arm Length:</label><br>
-            <input type="number" id="arm" name="arm"><br>
+            <input type="number" id="arm" aname="arm"><br>
             <label for="chest">Chest:</label><br>
-            <input type="number" id="chest" name="chest"><br>
+            <input type="number" id="chest" cname="chest"><br>
             <label for="breast">Breast:</label><br>
-            <input type="number" id="breast" name="breast"><br>
+            <input type="number" id="breast" bname="breast"><br>
             <label for="stomach">Stomach:</label><br>
-            <input type="number" id="stomach" name="stomach"><br>
+            <input type="number" id="stomach" stname="stomach"><br>
             <label for="waist">Waist:</label><br>
-            <input type="number" id="waist" name="waist"><br>
+            <input type="number" id="waist" wname="waistk"><br>
             <label for="hip">Hip:</label><br>
-            <input type="number" id="hip" name="hip"><br>
+            <input type="number" id="hip" hname="hipk"><br>
             <label for="sh">Sleeve Hole:</label><br>
-            <input type="number" id="sh" name="sh"><br>
+            <input type="number" id="sh" shname="sh"><br>
             <label for="wrist">Wrist:</label><br>
-            <input type="number" id="wrist" name="wrist"><br>
+            <input type="number" id="wrist" wrname="wrist"><br>
             <label for="ah">Arm Hole:</label><br>
-            <input type="number" id="ah" name="ah"><br>
+            <input type="number" id="ah" ahname="ah"><br>
         </form>
     </div>
 
     <div class="paj" id="paj">
-        <h2>Pajama</h2>
+        <h2>Pyjama</h2>
         <br>
-        <form>
+        <form class="" method="post" action="#">
             <label for="length">Length</label><br>
-            <input type="number" id="length" name="length"><br>
+            <input type="number" id="length" lename="length"><br>
             <label for="hip">Hip:</label><br>
-            <input type="number" id="hip" name="hip"><br>
+            <input type="number" id="hip" hiname="hipp"><br>
             <label for="waist">Waist:</label><br>
-            <input type="number" id="waist" name="waist"><br>
+            <input type="number" id="waist" waname="waistp"><br>
             <label for="bottom">Bottom:</label><br>
-            <input type="number" id="bottom" name="bottom"><br>
+            <input type="number" id="bottom" boname="bottom"><br>
             <label for="knee">Knees:</label><br>
-            <input type="number" id="knee" name="knee"><br>
+            <input type="number" id="knee" kname="knee"><br>
             <label for="calf">Calf:</label><br>
-            <input type="number" id="calf" name="calf"><br>
+            <input type="number" id="calf" caname="calf"><br>
         </form>
 
     </div>
