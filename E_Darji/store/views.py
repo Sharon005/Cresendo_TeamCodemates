@@ -23,4 +23,6 @@ def forms(request):
     context = {}
     return render(request, 'store/forms.html')
 
-
+def summary(request):
+    context = {}
+    return render(request, 'store/summary.html')
