@@ -77,11 +77,8 @@ WSGI_APPLICATION = 'E_Darji.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'demo',
-        'HOST': "mongodb://<admin>:<admin>@cluster0-shard-00-00.pifkd.mongodb.net:27017,cluster0-shard-00-01.pifkd.mongodb.net:27017,cluster0-shard-00-02.pifkd.mongodb.net:27017/<demo>?ssl=true&replicaSet=atlas-79xyw7-shard-0&authSource=admin&retryWrites=true&w=majority",
-        'USER': 'admin',
-        'PASSWORD': 'admin',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
