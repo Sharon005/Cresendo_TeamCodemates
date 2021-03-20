@@ -19,5 +19,8 @@ def home(request):
     return render(request, 'store/home.html')
 
 
+def forms(request):
+    context = {}
+    return render(request, 'store/forms.html')
 
 
