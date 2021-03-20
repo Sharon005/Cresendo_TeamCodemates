@@ -15,20 +15,30 @@ nav{
 }
 
 .fir{
-    background-color: lightskyblue;
+    border: 2px dashed;
     width: 100%;
+    
 }
 
 .fir form{
     width: 100%;
+    padding-left: 50px;
 }
 
 .row{
-    background-color: lightskyblue;
+    border: 1px dashed;
     width: 100%;
+    padding-left: 100px;
 }
 
 div form{
-    background-color: lightskyblue;
+    border: 2px dashed;
     width: 100%;
+}
+
+.kur form{
+    padding-left: 50px;
+}
+.paj form{
+    padding-left: 50px;
 }
