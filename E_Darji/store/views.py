@@ -51,4 +51,6 @@ def forms(request):
         messages.success(request, 'Details updated sucesefully.')
     return render(request, 'store/forms.html')
 
-
+def summary(request):
+    context = {}
+    return render(request, 'store/summary.html')
