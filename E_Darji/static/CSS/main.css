@@ -9,15 +9,22 @@ body h1{
 
 nav{
     background-color: turquoise;
-    font-size: 22px;
+    font-size: 28px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 500;
+    font-style: bold;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
 }
 
 .fir{
     border: 2px dashed;
     width: 100%;
-    
 }
 
 .fir form{
