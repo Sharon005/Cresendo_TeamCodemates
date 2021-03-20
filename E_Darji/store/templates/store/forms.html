@@ -11,15 +11,16 @@
   <div class="container">
     <div class="title">New Order</div>
     <div class="content">
-      <form action="#">
+      <form action="/forms/" method="post">
+        {% csrf_token %} 
         <div class="user-details">
           <div class="input-box">
             <span class="details">Customer Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <input type="text" name="name" placeholder="Enter your name" required>
           </div>
           <div class="input-box">
             <span class="details">Contact No.</span>
-            <input type="text" placeholder="Enter your contact no." required>
+            <input type="text" name="Contact" placeholder="Enter your contact no." required>
           </div>
         </div>
         <div class="sec">
@@ -29,48 +30,48 @@
           <div class="input-box">
             <br>
             <span class="details">Length</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Length" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Shoulder</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Shoulder" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Chest</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Chest" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Sleeves</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Sleeves" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Neck</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Neck" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Arm Hole</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Arm" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Width</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Width" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Sleeve Hole</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Sleevehole" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Hip</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Hip" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Breast</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Breast" placeholder="" required>
             <br><br>
           </div>
           <div class="input-box">
             <span class="details">Quantity</span>
-            <input type="number" placeholder="" required>
+            <input type="number" name="Quantity" placeholder="" required>
             <br>
           </div>
 
@@ -81,38 +82,38 @@
           <div class="input-box">
             <br>
             <span class="details">Length</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Lengthp" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Hip</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Hip" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Waist</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Waist" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Bottom</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Bottom" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Knees</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Knees" placeholder="" required>
           </div>
           <div class="input-box">
             <span class="details">Calf</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="Calf" placeholder="" required>
           </div>
 
           <div class="input-box">
             <span class="details">Quantity</span>
-            <input type="number" placeholder="" required>
+            <input type="number" name="quantity" placeholder="" required>
             <br>
           </div>
           <div class="input-box">
             <br>
             <span class="details">Extra Comments</span>
-            <input type="text" placeholder="" required>
+            <input type="text" name="extra" placeholder="" required>
           </div>
         </div>
         

@@ -1,6 +1,6 @@
 from django.urls import path
-
-from . import views
+from django.urls import path
+from store import views
 
 urlpatterns = [
         #Leave as empty string for base url
