@@ -6,6 +6,14 @@ body h1{
     text-align: center;
     width: 100%;
 }
+
+nav{
+    background-color: turquoise;
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
 .fir{
     background-color: lightskyblue;
     width: 100%;
