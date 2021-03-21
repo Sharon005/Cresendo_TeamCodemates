@@ -15,10 +15,12 @@ body{
   max-width: 700px;
   height: 80vh;
   width: 90%;
-  background-color: #fff;
+  background-color: lightgrey ;
   padding: 25px 30px;
   border-radius: 5px;
+  
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  opacity: 0.7;
 }
 
 
@@ -43,7 +45,7 @@ body{
 .row .col a:link{
   color: black;
   text-decoration: none;
-}
+}  
 
 .row .col a:hover{
   color: white;
@@ -51,16 +53,17 @@ body{
 }
 
 .row .col button{
-  color: black;
+  color: white;
 
 }
 
 .btn{
   width: 50%;
-  height: 80px;
+  height: 75px;
   font-weight: 750;
   border-radius: 10px;
   border-width: 2px;
+  background-color: black;
 }
 
 @media(min-width:1440px) and (max-width:2560px){
@@ -148,7 +151,7 @@ body{
   padding-top: 50px;
  }
  .row .col button{
-  color: black;
+  color: white;
   font-size: 10px;
   width: 75px;
 }
@@ -178,7 +181,7 @@ body{
   padding-top: 50px;
  }
  .row .col button{
-  color: black;
+  color: white;
   font-size: 10px;
   width: 75px;
 }
